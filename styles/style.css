@@ -1,3 +1,11 @@
+.page {
+  min-width: 110px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  line-height: 20px;
+}
 .header {
   height: 100vh;
   min-height: 720px;
