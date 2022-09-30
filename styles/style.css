@@ -1,5 +1,5 @@
 .page {
-  min-width: 110px;
+  min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Helvetica Neue", "Arial", sans-serif;
@@ -20,7 +20,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .logo {
@@ -32,6 +32,7 @@
   list-style: none;
   padding-left: 0;
   margin-top: 8px;
+  margin-bottom: 0;
   display: flex;
   column-gap: 20px;
   align-items: flex-end;
@@ -119,11 +120,12 @@
 
 .staff__card {
   max-width: 760px;
-  margin: 68px auto 40px;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
+  padding: 0;
 }
 
 .card {
@@ -205,6 +207,8 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  height: 24px;
+  width: 24px;
 }
 
 .event-info__icon_type_calendar {
@@ -256,31 +260,26 @@
 }
 
 .person_name_feynman {
-  position: absolute;
-  top: 30px;
+  top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  position: absolute;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  position: absolute;
   right: 216px;
   bottom: 18px;
 }
 
 .person_name_mitchell {
-  position: absolute;
   left: 142px;
   bottom: 82px;
 }
 
 .person_name_tarter {
-  position: absolute;
   top: 79px;
   left: 159px;
 }
@@ -328,11 +327,11 @@
   margin: 100px 0 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 40px;
 }
 
 .step {
-  gap: 40px;
   width: 220px;
 }
 
@@ -379,11 +378,13 @@
   margin-left: 120px;
   max-width: 660px;
   z-index: 1;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
 }
 
 .about__paragraph {
   margin: 0;
-  gap: 32px;
 }
 
 .about__circle {
@@ -401,18 +402,19 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #ffff;
-  padding: 57px 102px 60px 80px;
+  padding: 80px 102px 60px 80px;
 }
 
 .footer__columns {
   display: flex;
+  min-height: 224px;
 }
 
-.footer__column_hours {
+.footer__column_content_hours {
   margin-left: auto;
 }
 
-.footer__column_social {
+.footer__column_content_social {
   margin-left: 100px;
 }
 
@@ -436,6 +438,8 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
@@ -458,5 +462,5 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 0;
+  margin: 0 108px 0 0;
 }
