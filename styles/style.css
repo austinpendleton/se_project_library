@@ -402,7 +402,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #ffff;
-  padding: 80px 102px 60px 80px;
+  padding: 60px 80px 60px 102px;
 }
 
 .footer__columns {
@@ -462,5 +462,5 @@
 }
 
 .footer__copyright {
-  margin: 0 108px 0 0;
+  margin: 108px 0 0 0;
 }
